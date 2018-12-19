@@ -5,7 +5,7 @@ q_2 = dict()
 q_2['name'] = 'python'
 q_2[('a', )] = 'python'
 q_2[250] = 'python'
-#list is invalid key
+#list is invalid
 
 q_3 = {'A':90, 'B':80, 'C':70}
 q_3.pop('B')
