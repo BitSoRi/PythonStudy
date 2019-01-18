@@ -123,7 +123,7 @@ os 모듈을 이용하여 다음과 같이 동작하도록 코드를 작성해 �
 #### A2
 ```python
 import os
-os.chidr("C:\doit")
+os.chdir("C:\doit")
 result = os.popen("dir")
 print(result)
 ```
