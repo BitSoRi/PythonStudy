@@ -121,7 +121,12 @@ os 모듈을 이용하여 다음과 같이 동작하도록 코드를 작성해 �
 3. dir 명령의 결과를 출력한다.
 
 #### A2
-
+```python
+import os
+os.chidr("C:\doit")
+result = os.popen("dir")
+print(result)
+```
 
 #### Q3 glob
 glob 모듈을 이용하여 ```C:\doit``` 디렉토리의 파일중 확장자가 py인 파일만 출력하는 프로그램을 작성하시오.
