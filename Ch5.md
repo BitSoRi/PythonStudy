@@ -100,4 +100,62 @@ round(17 / 3, 4)
 
 ## Ch 5-6. 
 
+#### Q1 sys.argv
+다음과 같이 실행할 때 입력 값을 모두 더하여 출력하는 스크립트 (```C:\doit\myargv.py```)를 작성하시오.
+(힌트. 외장함수 sys.argv를 이용해 보자)
+```python
+c:\> cd doit
+c:\doit> python myargv.py 1 2 3 4 5 6 7 8 9 10
+55
+```
 
+#### A1
+```python
+
+```
+
+#### Q2 os
+os 모듈을 이용하여 다음과 같이 동작하도록 코드를 작성해 보자.
+1. ```C:\doit``` 이라는 디렉토리로 이동한다.
+2. dir 명령을 실행하고 그 결과를 변수에 담는다.
+3. dir 명령의 결과를 출력한다.
+
+#### A2
+
+
+#### Q3 glob
+glob 모듈을 이용하여 ```C:\doit``` 디렉토리의 파일중 확장자가 py인 파일만 출력하는 프로그램을 작성하시오.
+
+#### A3
+```python
+import glob
+glob.glob("C:\doit\*.py")
+```
+
+#### Q4 time
+time 모듈을 이용하여 현재 날짜와 시간을 다음과 같은 형식으로 출력하시오.
+```python
+YYYY/MM/DD HH:mm:ss (YYYY:년도, MM:월, DD:일, HH:24시간 기준시간, mm:분, ss:초)
+```
+출력 예
+```python
+2018/04/03 17:20:32
+```
+
+#### A4
+```python
+import time
+time.strftime('%Y/%m/%d %H:%M:%S, time.localtime(time.time()))
+```
+
+#### Q5 random
+random 모듈을 이용하여 로또번호 (1~45 사이의 숫자 6개)를 생성하시오. (단, 중복된 숫자가 있으면 안됨)
+
+#### A5
+```python
+import random
+lotto_set = range(1,46)
+for i in range(6):
+    lotto = random.randint(0, len(lotto_set))
+    data.pop(lotto_set[lotto])
+```
