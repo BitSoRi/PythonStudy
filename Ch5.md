@@ -103,7 +103,7 @@ round(17 / 3, 4)
 #### Q1 sys.argv
 다음과 같이 실행할 때 입력 값을 모두 더하여 출력하는 스크립트 (```C:\doit\myargv.py```)를 작성하시오.
 (힌트. 외장함수 sys.argv를 이용해 보자)
-```python
+```
 c:\> cd doit
 c:\doit> python myargv.py 1 2 3 4 5 6 7 8 9 10
 55
@@ -138,7 +138,7 @@ time 모듈을 이용하여 현재 날짜와 시간을 다음과 같은 형식�
 YYYY/MM/DD HH:mm:ss (YYYY:년도, MM:월, DD:일, HH:24시간 기준시간, mm:분, ss:초)
 ```
 출력 예
-```python
+```
 2018/04/03 17:20:32
 ```
 
