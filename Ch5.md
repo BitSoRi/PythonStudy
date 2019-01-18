@@ -111,7 +111,9 @@ c:\doit> python myargv.py 1 2 3 4 5 6 7 8 9 10
 
 #### A1
 ```python
-
+import sys
+a = sum(int(sys.argv[1:]))
+print(a)
 ```
 
 #### Q2 os
